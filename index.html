@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <audio id="audioAmor" src="cancion.mp3" preload="auto" loop></audio>
+
+  <div class="container" id="paginaInicio">
+    <div class="reloj" id="contador"></div>
+    <h1 class="titulo">🎉 Happy Birthday my Love 🎉</h1>
+    <button class="boton" onclick="mostrarGaleria()">Ver galería 💖</button>
+  </div>
+
+  <div class="container" id="paginaGaleria" style="display: none;">
+    <p class="mensaje">
+      💖 Hoy celebramos el día más especial, porque nació la persona que ilumina mi vida. Te amo con todo mi corazón 💖
+    </p>
+
+    <div class="galeria">
+      <div class="polaroid">
+        <img src="img1.jpg" alt="Foto 1" />
+        <p>Nosotros 💕</p>
+      </div>
+      <div class="polaroid">
+        <img src="img2.jpg" alt="Foto 2" />
+        <p>Tu sonrisa 🥰</p>
+      </div>
+      <div class="polaroid">
+        <img src="img3.jpg" alt="Foto 3" />
+        <p>Momentos 💑</p>
+      </div>
+    </div>
+
+    <button class="boton" onclick="volverInicio()">⬅ Volver</button>
+  </div>
+</body>
+</html>
