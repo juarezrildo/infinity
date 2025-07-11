@@ -23,7 +23,7 @@ function actualizarReloj() {
     const h = Math.floor(diff / 3600000);
     const m = Math.floor((diff % 3600000) / 60000);
     const s = Math.floor((diff % 60000) / 1000);
-    texto = `🎂 Ya es tu día, amor 💖 Tiempo transcurrido: ${h}h ${m}m ${s}s`;
+    texto = `🎂 Ya es tu día mi amor 💖 Tiempo transcurrido: ${h}h ${m}m ${s}s`;
   } else {
     texto = "🎉 ¡Tu cumpleaños ya pasó, pero te sigo amando todos los días! 💕";
   }
